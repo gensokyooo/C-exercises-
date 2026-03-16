@@ -10,4 +10,5 @@ add_executable(swap arrays/03_swap.cpp)
 add_executable(coincide arrays/04_coincide.cpp)
 add_executable(shiftleft arrays/05_shiftleft.cpp)
 add_executable(mostfrequent arrays/06_mostfrequent.cpp)
+add_executable(palindrome arrays/07_palindrome.cpp)
 
