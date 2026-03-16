@@ -11,4 +11,6 @@ add_executable(coincide arrays/04_coincide.cpp)
 add_executable(shiftleft arrays/05_shiftleft.cpp)
 add_executable(mostfrequent arrays/06_mostfrequent.cpp)
 add_executable(palindrome arrays/07_palindrome.cpp)
+add_executable(zerosubsequences arrays/08_getzerosubsequences.cpp)
+add_executable(norepetitions arrays/09_norepetitions.cpp)
 

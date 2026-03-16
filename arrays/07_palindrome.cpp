@@ -20,12 +20,9 @@ bool palindrome (char str[]) {
             // If even one value doesn't match, it immediately exists and returns false
             return false;
         }
-
     }
-
     // Returning true if the loop condition doesn't trigger
     return true;
-
 }
 
 
