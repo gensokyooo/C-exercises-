@@ -8,4 +8,5 @@ add_executable(shift_left arrays/01_reverse_array.cpp)
 add_executable(compact arrays/02_compact.cpp)
 add_executable(swap arrays/03_swap.cpp)
 add_executable(coincide arrays/04_coincide.cpp)
+add_executable(shiftleft arrays/05_shiftleft.cpp)
 
