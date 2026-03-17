@@ -13,4 +13,5 @@ add_executable(mostfrequent arrays/06_mostfrequent.cpp)
 add_executable(palindrome arrays/07_palindrome.cpp)
 add_executable(zerosubsequences arrays/08_getzerosubsequences.cpp)
 add_executable(norepetitions arrays/09_norepetitions.cpp)
+add_executable(longestwordlength strings/01_find_longest_word_length.cpp)
 
