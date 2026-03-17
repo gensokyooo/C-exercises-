@@ -15,4 +15,5 @@ add_executable(zerosubsequences arrays/08_getzerosubsequences.cpp)
 add_executable(norepetitions arrays/09_norepetitions.cpp)
 add_executable(longestwordlength strings/01_find_longest_word_length.cpp)
 add_executable(reversestring strings/02_reversestring.cpp)
+add_executable(rotate arrays/10_rotate.cpp)
 
