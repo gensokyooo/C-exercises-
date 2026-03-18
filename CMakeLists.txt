@@ -17,4 +17,5 @@ add_executable(longestwordlength strings/01_find_longest_word_length.cpp)
 add_executable(reversestring strings/02_reversestring.cpp)
 add_executable(rotate arrays/10_rotate.cpp)
 add_executable(subtargetsum arrays/11_subsequencestargetsum.cpp)
+add_executable(removedoublestring strings/04_removedoublestring.cpp)
 
