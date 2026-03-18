@@ -1,25 +1,26 @@
 #include <iostream>
 using namespace std;
 
-void removeDoubleString (char str[], char b[], int const length) {
+void removeDoubleString (char str[], char b[], int length) {
 
+    // Add the letter first time it appears
+    // If it's already in b
+    // Don't
     int count = 0;
-    for (int i = 0; i < length+1; i ++) {
-
-        // Resetting for each index
-        int occurrences = 0;
-
-        // Counting occurrences
-        for (int j = i; j < length+1; j ++) {
-            if (str[i] == str[j]) {
-                occurrences++;
+    for (int i = 0; i < length+1; i++) {
+        bool appeared = false;
+        for (int j = 0; j < count; j++) {
+            if (str[i] == b[j]) {
+                appeared = true;
+                break;
             }
         }
-        if (occurrences == 1) {
+        if (!appeared) {
             b[count++] = str[i];
         }
     }
 }
+
 
 
 int main () {
@@ -33,14 +34,6 @@ int main () {
         length++;
     }
 
-    removeDoubleString (str,b,length);
-    int lengthb = 0;
-    while (b[lengthb] != '\0') {
-        lengthb++;
-    }
 
-    for (int i = 0; i < lengthb; i++) {
-        cout << b[i];
-    }
 
 }
