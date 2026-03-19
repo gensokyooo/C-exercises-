@@ -37,7 +37,10 @@ int main () {
         length_of_a++;
     }
 
+
     removeDoubleString (a, b, length_of_a);
+
+    cout << b << endl;
 
 
 
